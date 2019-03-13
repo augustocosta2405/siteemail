@@ -1,0 +1,310 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 25/02/2019, 15:15:50
+    Author     : Cliente
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #AAA;
+}
+
+li {
+  float: right;
+  border-right:1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+
+.line{
+    width: 100%;
+    height: 5px;
+    background-color: white;
+}
+
+.reparo1{
+    width: 100%;
+    height: 50px;
+    background-color: red;
+}
+
+.desc{
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    
+    font-family: Century Gothic;
+    font-size: 90%;
+    color: white;
+    text-align: center;
+}
+
+.reparo2{
+    width: 100%;
+    height: 70px;
+    background-color: red;
+}
+
+
+.convic1{
+    width: 50%;
+    height: 100%;
+    background-color: red;
+    float: left;
+}
+
+.visao{
+    width: 75%;
+    height: 100%;
+    margin-left: 20%;
+}
+#nome1{
+    width: 100%;
+    height: 100%;
+    background: white;
+}
+#nome1 h1{
+    font-family: Century Gothic;
+    font-size: 150%;
+    color: black;
+    text-align: center;
+    padding: 2%;
+}
+#txt1{
+    width: 100%;
+    height: 100%;
+    background: red;
+    
+    /*diminuiçao da fonte para poder concatenar as divs*/
+    font-family: Century Gothic;
+    font-size: 80%;
+    color: white;
+}
+
+
+.convic2{
+    width: 50%;
+    height: 100%;
+    background-color: red;
+    float: left;
+}
+
+.missao{
+    width: 75%;
+    height: 100%;
+    margin-left: 5%;
+}
+#nome2{
+    width: 100%;
+    height: 100%;
+    background: white;
+}
+#nome2 h1{
+    font-family: Century Gothic;
+    font-size: 150%;
+    color: black;
+    text-align: center;
+    padding: 2%;
+}
+#txt2{
+    width: 100%;
+    height: 100%;
+    background: red;
+    
+    font-family: Century Gothic;
+    font-size: 90%;
+    color: white;
+}
+
+
+#reparo{
+    width: 100%;
+    height: 1px;
+    background-color: red;
+    float: left;
+}
+
+
+.convic3{
+    width: 50%;
+    height: 100%;
+    background-color: red;
+    float: left;
+}
+
+.valor{
+    width: 75%;
+    height: 100%;
+    margin-left: 20%;
+}
+#nome3{
+    width: 100%;
+    height: 100%;
+    background: white;
+}
+#nome3 h1{
+    font-family: Century Gothic;
+    font-size: 150%;
+    color: black;
+    text-align: center;
+    padding: 2%;
+}
+#txt3{
+    width: 100%;
+    height: 100%;
+    background: red;
+    
+    font-family: Century Gothic;
+    font-size: 90%;
+    color: white;
+}
+
+
+.convic4{
+    width: 50%;
+    height: 100%;
+    background-color: red;
+    float: left;
+}
+
+.respon{
+    width: 75%;
+    height: 100%;
+    margin-left: 5%;
+}
+#nome4{
+    width: 100%;
+    height: 100%;
+    background: white;
+}
+#nome4 h1{
+    font-family: Century Gothic;
+    font-size: 150%;
+    color: black;
+    text-align: center;
+    padding: 2%;
+}
+#txt4{
+    width: 100%;
+    height: 100%;
+    background: red;
+    
+    font-family: Century Gothic;
+    font-size: 90%;
+    color: white;
+}
+
+
+#repair{
+    width: 100%;
+    height: 30px;
+    background-color: red;
+    float: left;
+}
+
+
+#line2{
+    width: 100%;
+    height: 5px;
+    background-color: white;
+    float: left;
+}
+
+
+.rodapee{
+    width: 100%;
+    height: 100%;
+    background-color: red;
+}
+
+.rodapee{
+    width: 100%;
+    height: 100%;
+}
+.rodapee img{
+    width: 25%;
+    height: 25%;
+    margin-left: 37.5%;
+}
+
+.end{
+    width: 100%;
+    height: 100%;
+    
+    text-align: center;
+    font-family: Century Gothic;
+    font-size: 100%;
+    color: white;
+}
+
+.tel{
+    width: 100%;
+    height: 100%;
+    
+    text-align: center;
+    font-family: Century Gothic;
+    font-size: 100%;
+    color: white;
+}
+
+.email{
+    width: 100%;
+    height: 100%;
+    
+    text-align: center;
+    font-family: Century Gothic;
+    font-size: 100%;
+    color: white;
+}
+
+.sep1{
+    width: 100%;
+    height: 30px;
+    background-color: red;
+}
+.sep2{
+    width: 100%;
+    height: 30px;
+    background-color: red;
+}
+.sep3{
+    width: 100%;
+    height: 30px;
+    background-color: red;
+}
+.sep4{
+    width: 100%;
+    height: 40px;
+    background-color: red;
+}

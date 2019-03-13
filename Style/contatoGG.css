@@ -1,0 +1,273 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26/02/2019, 10:20:19
+    Author     : Cliente
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: right;
+  border-right:1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+
+#line{
+    width: 100%;
+    height: 5px;
+    background-color: white;
+}
+
+
+#repair1c{
+    width: 100%;
+    height: 20px;
+    background-color: red;
+}
+
+
+.message{
+    width: 100%;
+    height: 100%;
+    background-color: red;
+}
+
+.message form{
+    font-family: Century Gothic;
+    font-size: 100%;
+    color: white;
+}
+.message form label{
+    margin-left: 10%;
+}
+.message form input[type=text], select {
+  width: 80%;
+  padding: 1%;
+  margin-left: 10%;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.message form input[type=submit] {
+  width: 20%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 1%;
+  margin-left: 10%;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.message form textarea{
+    width: 80%;
+    height: 20%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 12px 20px;
+    margin-left: 10%;
+}
+
+.message form input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+#repair2c{
+    width: 100%;
+    height: 20px;
+    background-color: red;
+}
+
+
+/*.local{
+    max-width: 100%;
+    height: auto;
+    background-color: red;
+}*/
+
+#line2{
+    width: 100%;
+    height: 5px;
+    background-color: white;
+}
+
+
+.space1{
+    width: 100%;
+    height: 40px;
+    background-color: red;
+    float: left;
+}
+
+
+.loc1{
+    width: 50%;
+    height: 100%;
+    background-color: red;
+    float: left;
+}
+.loc1 h1{
+    font-family: Century Gothic;
+    font-size: 100%;
+    color: white;
+    margin-left: 20%;
+}
+/*.loc2{
+    width: 25%;
+    height: 100%;
+    background-color: red;
+    float: left;
+}
+.loc2 h1{
+    font-family: Century Gothic;
+    font-size: 100%;
+    color: white;
+    padding: 5%;
+    margin-left: 10%;
+}
+.loc3{
+    width: 25%;
+    height: 100%;
+    background-color: red;
+    float: left;
+}
+.loc3 h1{
+    font-family: Century Gothic;
+    font-size: 100%;
+    color: white;
+    padding: 5%;
+    margin-left: 10%;
+}*/
+.loc4{
+    width: 50%;
+    height: 100%;
+    background-color: red;
+    float: left;
+}
+.loc4 h1{
+    font-family: Century Gothic;
+    font-size: 100%;
+    color: white;
+    margin-left: 20%;
+}
+
+.space2{
+    width: 100%;
+    height: 40px;
+    background-color: red;
+    float: left;
+}
+
+
+#line3{
+    width: 100%;
+    height: 5px;
+    background-color: white;
+}
+
+
+.rodapee{
+    width: 100%;
+    height: 100%;
+    background-color: red;
+}
+
+.rodapee{
+    width: 100%;
+    height: 100%;
+}
+.rodapee img{
+    width: 15%;
+    height: 15%;
+    margin-left: 42.5%;
+}
+
+.end{
+    width: 100%;
+    height: 100%;
+    
+    text-align: center;
+    font-family: Century Gothic;
+    font-size: 100%;
+    color: white;
+}
+
+.tel{
+    width: 100%;
+    height: 100%;
+    
+    text-align: center;
+    font-family: Century Gothic;
+    font-size: 100%;
+    color: white;
+}
+
+.email{
+    width: 100%;
+    height: 100%;
+    
+    text-align: center;
+    font-family: Century Gothic;
+    font-size: 100%;
+    color: white;
+}
+
+.sep1{
+    width: 100%;
+    height: 30px;
+    background-color: red;
+}
+.sep2{
+    width: 100%;
+    height: 30px;
+    background-color: red;
+}
+.sep3{
+    width: 100%;
+    height: 30px;
+    background-color: red;
+}
+.sep4{
+    width: 100%;
+    height: 40px;
+    background-color: red;
+}

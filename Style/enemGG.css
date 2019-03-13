@@ -1,0 +1,167 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12/03/2019, 08:47:38
+    Author     : Cliente
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: right;
+  border-right:1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+
+
+.books6{
+    width: 100%;
+    height: 100%;
+}
+
+.enem1{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    float: left;
+}
+.capae1{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.capae1 img{
+    width: 100%;
+    height: 100%;
+    
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    -khtml-background-size: 100%;
+    -moz-background-size: 100% 100%;
+}
+
+.desce1{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    float: left;
+    
+    font-family: Arial;
+    font-size: 120%;
+}
+
+/*ESTANTE 1*/
+.estantee1{
+    width: 100%;
+    height: 2px;
+    background-color: transparent;
+    float: left;
+}
+
+
+
+.rodapee{
+    width: 100%;
+    height: 100%;
+    background-color: red;
+}
+
+.rodapee{
+    width: 100%;
+    height: 100%;
+}
+.rodapee img{
+    width: 15%;
+    height: 15%;
+    margin-left: 42.5%;
+    
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    -khtml-background-size: 100%;
+    -moz-background-size: 100% 100%;
+}
+
+.end{
+    width: 100%;
+    height: 100%;
+    
+    text-align: center;
+    font-family: Century Gothic;
+    font-size: 100%;
+    color: white;
+}
+
+.tel{
+    width: 100%;
+    height: 100%;
+    
+    text-align: center;
+    font-family: Century Gothic;
+    font-size: 100%;
+    color: white;
+}
+
+.email{
+    width: 100%;
+    height: 100%;
+    
+    text-align: center;
+    font-family: Century Gothic;
+    font-size: 100%;
+    color: white;
+}
+
+.sep1{
+    width: 100%;
+    height: 30px;
+    background-color: red;
+}
+.sep2{
+    width: 100%;
+    height: 30px;
+    background-color: red;
+}
+.sep3{
+    width: 100%;
+    height: 30px;
+    background-color: red;
+}
+.sep4{
+    width: 100%;
+    height: 40px;
+    background-color: red;
+}

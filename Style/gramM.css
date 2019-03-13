@@ -1,0 +1,454 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12/03/2019, 14:29:01
+    Author     : Cliente
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #CCC;
+}
+
+li {
+  float: right;
+  border-right:1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+
+
+.books4{
+    width: 100%;
+    height: 100%;
+}
+
+.gram1{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    float: left;
+}
+.capag1{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.capag1 img{
+    width: 70%;
+    height: 70%;
+    margin-left: 15%;
+    
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    -khtml-background-size: 100%;
+    -moz-background-size: 100% 100%;
+}
+
+.descg1{
+    width: 50%;
+    height: 100%;
+    float: left;
+    
+    font-family: Arial;
+    font-size: 80%;
+}
+
+
+.gram2{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    float: left;
+}
+.capag2{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.capag2 img{
+    width: 70%;
+    height: 70%;
+    margin-left: 15%;
+    
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    -khtml-background-size: 100%;
+    -moz-background-size: 100% 100%;
+}
+
+.descg2{
+    width: 50%;
+    height: 100%;
+    float: left;
+    
+    font-family: Arial;
+    font-size: 80%;
+}
+
+/*ESTANTE 1*/
+.estanteg1{
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    float: left;
+}
+
+
+.gram3{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    float: left;
+}
+.capag3{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.capag3 img{
+    width: 70%;
+    height: 70%;
+    margin-left: 15%;
+    
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    -khtml-background-size: 100%;
+    -moz-background-size: 100% 100%;
+}
+
+.descg3{
+    width: 50%;
+    height: 100%;
+    float: left;
+    
+    font-family: Arial;
+    font-size: 80%;
+}
+
+
+.gram4{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    float: left;
+}
+.capag4{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.capag4 img{
+    width: 70%;
+    height: 70%;
+    margin-left: 15%;
+    
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    -khtml-background-size: 100%;
+    -moz-background-size: 100% 100%;
+}
+
+.descg4{
+    width: 50%;
+    height: 100%;
+    float: left;
+    
+    font-family: Arial;
+    font-size: 80%;
+}
+
+/*ESTANTE 2*/
+.estanteg2{
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    float: left;
+}
+
+.gram5{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    float: left;
+}
+.capag5{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.capag5 img{
+    width: 70%;
+    height: 70%;
+    margin-left: 15%;
+    
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    -khtml-background-size: 100%;
+    -moz-background-size: 100% 100%;
+}
+
+.descg5{
+    width: 50%;
+    height: 100%;
+    float: left;
+    
+    font-family: Arial;
+    font-size: 80%;
+}
+
+
+.gram6{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    float: left;
+}
+.capag6{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.capag6 img{
+    width: 70%;
+    height: 70%;
+    margin-left: 15%;
+    
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    -khtml-background-size: 100%;
+    -moz-background-size: 100% 100%;
+}
+
+.descg6{
+    width: 50%;
+    height: 100%;
+    float: left;
+    
+    font-family: Arial;
+    font-size: 80%;
+}
+
+/*ESTANTE 3*/
+.estanteg3{
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    float: left;
+}
+
+
+.gram7{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    float: left;
+}
+.capag7{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.capag7 img{
+    width: 70%;
+    height: 70%;
+    margin-left: 15%;
+    
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    -khtml-background-size: 100%;
+    -moz-background-size: 100% 100%;
+}
+
+.descg7{
+    width: 50%;
+    height: 100%;
+    float: left;
+    
+    font-family: Arial;
+    font-size: 80%;
+}
+
+
+.gram8{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    float: left;
+}
+.capag8{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.capag8 img{
+    width: 70%;
+    height: 70%;
+    margin-left: 15%;
+    
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    -khtml-background-size: 100%;
+    -moz-background-size: 100% 100%;
+}
+
+.descg8{
+    width: 50%;
+    height: 100%;
+    float: left;
+    
+    font-family: Arial;
+    font-size: 80%;
+}
+
+/*ESTANTE 4*/
+.estanteg4{
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    float: left;
+}
+
+.gram9{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    float: left;
+}
+.capag9{
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+.capag9 img{
+    width: 70%;
+    height: 70%;
+    margin-left: 15%;
+    
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    -khtml-background-size: 100%;
+    -moz-background-size: 100% 100%;
+}
+
+.descg9{
+    width: 50%;
+    height: 100%;
+    float: left;
+    
+    font-family: Arial;
+    font-size: 80%;
+}
+
+/*ESTANTE 5*/
+.estanteg5{
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    float: left;
+}
+
+
+
+.rodapee{
+    width: 100%;
+    height: 100%;
+    background-color: red;
+}
+
+.rodapee{
+    width: 100%;
+    height: 100%;
+}
+.rodapee img{
+    width: 15%;
+    height: 15%;
+    margin-left: 42.5%;
+    
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    -khtml-background-size: 100%;
+    -moz-background-size: 100% 100%;
+}
+
+.end{
+    width: 100%;
+    height: 100%;
+    
+    text-align: center;
+    font-family: Century Gothic;
+    font-size: 100%;
+    color: white;
+}
+
+.tel{
+    width: 100%;
+    height: 100%;
+    
+    text-align: center;
+    font-family: Century Gothic;
+    font-size: 100%;
+    color: white;
+}
+
+.email{
+    width: 100%;
+    height: 100%;
+    
+    text-align: center;
+    font-family: Century Gothic;
+    font-size: 100%;
+    color: white;
+}
+
+.sep1{
+    width: 100%;
+    height: 30px;
+    background-color: red;
+}
+.sep2{
+    width: 100%;
+    height: 30px;
+    background-color: red;
+}
+.sep3{
+    width: 100%;
+    height: 30px;
+    background-color: red;
+}
+.sep4{
+    width: 100%;
+    height: 40px;
+    background-color: red;
+}
+

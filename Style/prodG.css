@@ -1,0 +1,440 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12/03/2019, 14:38:42
+    Author     : Cliente
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: right;
+  border-right:1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+
+
+.books5{
+    width: 100%;
+    height: 100%;
+}
+
+.prod1{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    float: left;
+}
+.capap1{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.capap1 img{
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+    
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    -khtml-background-size: 100%;
+    -moz-background-size: 100% 100%;
+}
+
+.descp1{
+    width: 50%;
+    height: 100%;
+    float: left;
+    
+    font-family: Arial;
+}
+
+
+.prod2{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    float: left;
+}
+.capap2{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.capap2 img{
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+    
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    -khtml-background-size: 100%;
+    -moz-background-size: 100% 100%;
+}
+
+.descp2{
+    width: 50%;
+    height: 100%;
+    float: left;
+    
+    font-family: Arial;
+}
+
+/*ESTANTE 1*/
+.estantep1{
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    float: left;
+}
+
+
+.prod3{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    float: left;
+}
+.capap3{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.capap3 img{
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+    
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    -khtml-background-size: 100%;
+    -moz-background-size: 100% 100%;
+}
+
+.descp3{
+    width: 50%;
+    height: 100%;
+    float: left;
+    
+    font-family: Arial;
+}
+
+
+.prod4{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    float: left;
+}
+.capap4{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.capap4 img{
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+}
+
+.descp4{
+    width: 50%;
+    height: 100%;
+    float: left;
+    
+    font-family: Arial;
+}
+
+/*ESTANTE 2*/
+.estantep2{
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    float: left;
+}
+
+.prod5{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    float: left;
+}
+.capap5{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.capap5 img{
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+    
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    -khtml-background-size: 100%;
+    -moz-background-size: 100% 100%;
+}
+
+.descp5{
+    width: 50%;
+    height: 100%;
+    float: left;
+    
+    font-family: Arial;
+}
+
+
+.prod6{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    float: left;
+}
+.capap6{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.capap6 img{
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+    
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    -khtml-background-size: 100%;
+    -moz-background-size: 100% 100%;
+}
+
+.descp6{
+    width: 50%;
+    height: 100%;
+    float: left;
+    
+    font-family: Arial;
+}
+
+/*ESTANTE 3*/
+.estantep3{
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    float: left;
+}
+
+
+.prod7{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    float: left;
+}
+.capap7{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.capap7 img{
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+    
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    -khtml-background-size: 100%;
+    -moz-background-size: 100% 100%;
+}
+
+.descp7{
+    width: 50%;
+    height: 100%;
+    float: left;
+    
+    font-family: Arial;
+}
+
+
+.prod8{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    float: left;
+}
+.capap8{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.capap8 img{
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+    
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    -khtml-background-size: 100%;
+    -moz-background-size: 100% 100%;
+}
+
+.descp8{
+    width: 50%;
+    height: 100%;
+    float: left;
+    
+    font-family: Arial;
+}
+
+/*ESTANTE 4*/
+.estantep4{
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    float: left;
+}
+
+.prod9{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    float: left;
+}
+.capap9{
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+.capap9 img{
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+    
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    -khtml-background-size: 100%;
+    -moz-background-size: 100% 100%;
+}
+
+.descp9{
+    width: 50%;
+    height: 100%;
+    float: left;
+    
+    font-family: Arial;
+}
+
+/*ESTANTE 5*/
+.estantep5{
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    float: left;
+}
+
+
+
+.rodapee{
+    width: 100%;
+    height: 100%;
+    background-color: red;
+}
+
+.rodapee{
+    width: 100%;
+    height: 100%;
+}
+.rodapee img{
+    width: 15%;
+    height: 15%;
+    margin-left: 42.5%;
+    
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    -khtml-background-size: 100%;
+    -moz-background-size: 100% 100%;
+}
+
+.end{
+    width: 100%;
+    height: 100%;
+    
+    text-align: center;
+    font-family: Century Gothic;
+    font-size: 100%;
+    color: white;
+}
+
+.tel{
+    width: 100%;
+    height: 100%;
+    
+    text-align: center;
+    font-family: Century Gothic;
+    font-size: 100%;
+    color: white;
+}
+
+.email{
+    width: 100%;
+    height: 100%;
+    
+    text-align: center;
+    font-family: Century Gothic;
+    font-size: 100%;
+    color: white;
+}
+
+.sep1{
+    width: 100%;
+    height: 30px;
+    background-color: red;
+}
+.sep2{
+    width: 100%;
+    height: 30px;
+    background-color: red;
+}
+.sep3{
+    width: 100%;
+    height: 30px;
+    background-color: red;
+}
+.sep4{
+    width: 100%;
+    height: 40px;
+    background-color: red;
+}
+

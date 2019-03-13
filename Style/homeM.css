@@ -1,0 +1,577 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 25/02/2019, 08:43:28
+    Author     : Cliente
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #AAA;
+}
+
+li {
+  float: right;
+  border-right:1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+
+.slide{
+    background-color: #DCDCDC;
+    width: 100%;
+    height: 450px;
+    
+    background-size:100% 100%;
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    -khtml-background-size: 100%;
+    -moz-background-size: 100% 100%;
+}
+.slideshow{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    animation: slide 16s infinite;
+    
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    -khtml-background-size: 100%;
+    -moz-background-size: 100% 100%;
+}
+@keyframes slide{
+    0%, 25% {background-image: url(../HOMEIMG/leia.png);}
+    26%, 50% {background-image: url(../HOMEIMG/CATALOGO.jpg);}
+    51%, 75% {background-image: url(../HOMEIMG/INF2.jpg);}
+    76%, 100% {background-image: url(../HOMEIMG/back.jpg);}
+}
+
+
+#line{
+    width: 100%;
+    height: 3px;
+    background-color: white;
+}
+
+
+.titulo{
+    width: 100%;
+    height: 100%;
+    background-color: red;
+}
+.titulo h1{
+    font-family: Century Gothic;
+    font-size: 250%;
+    color: white;
+    text-align: center;
+    padding: 1%;
+}
+
+
+#line1{
+    width: 100%;
+    height: 3px;
+    background-color: white;
+}
+
+
+
+.estante{
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    float: left;
+}
+.cortinas{
+    width: 25%;
+    height: 100%;
+    float: left;
+    background-color: rgba(0,0,0,0.5);
+    margin-left: 6.25%;
+    margin-top: 2%;
+}
+#nome1{
+    width: 100%;
+    height: 100%;
+}
+#nome1 h1{
+    font-family: Century Gothic;
+    font-size: 70%;
+    color: white;
+    text-align: center;
+    padding: 4%;
+}
+#capa1{
+    width: 100%;
+    height: 100%;
+}
+#capa1 img{
+    width: 80%;
+    height: 80%;
+    padding: 3%;
+    margin-left: 7%;
+    
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    -khtml-background-size: 100%;
+    -moz-background-size: 100% 100%;
+}
+#desccort{
+    width: 100%;
+    height: 100%;
+    
+    font-family: Century Gothic;
+    font-size: 100%;
+    color: white;
+    text-align: center;
+}
+#botao1{
+    width: 100%;
+    height: 100%;
+    padding: 5%;
+}
+#botao1 button{
+    font-family: Century Gothic;
+    font-size: 70%;
+    color: white;
+    background: transparent;
+    cursor: pointer;
+    text-align: center;
+    padding: 3%;
+    border-radius: 6px;
+}
+#botao1 button:hover{
+    color: black;
+    background: white;
+}
+
+
+.didatico{
+    width: 25%;
+    height: 100%;
+    float: left;
+    background-color: rgba(0,0,0,0.5);
+    margin-left: 6.25%;
+    margin-top: 2%;
+}
+#nome2{
+    width: 100%;
+    height: 100%;
+}
+#nome2 h1{
+    font-family: Century Gothic;
+    font-size: 80%;
+    color: white;
+    text-align: center;
+    padding: 4%;
+}
+#capa2{
+    width: 100%;
+    height: 100%;
+}
+#capa2 img{
+    width: 80%;
+    height: 80%;
+    padding: 3%;
+    margin-left: 7%;
+    
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    -khtml-background-size: 100%;
+    -moz-background-size: 100% 100%;
+}
+#descdida{
+    width: 100%;
+    height: 100%;
+    
+    font-family: Century Gothic;
+    font-size: 100%;
+    color: white;
+    text-align: center;
+}
+#botao2{
+    width: 100%;
+    height: 100%;
+    padding: 5%;
+}
+#botao2 button{
+    font-family: Century Gothic;
+    font-size: 70%;
+    color: white;
+    background: transparent;
+    cursor: pointer;
+    text-align: center;
+    padding: 3%;
+    border-radius: 6px;
+}
+#botao2 button:hover{
+    color: black;
+    background: white;
+}
+
+
+.afro{
+    width: 25%;
+    height: 100%;
+    float: left;
+    background-color: rgba(0,0,0,0.5);
+    margin-left: 6.25%;
+    margin-top: 2%;
+}
+#nome3{
+    width: 100%;
+    height: 100%;
+}
+#nome3 h1{
+    font-family: Century Gothic;
+    font-size: 80%;
+    color: white;
+    text-align: center;
+    padding: 4%;
+}
+#capa3{
+    width: 100%;
+    height: 100%;
+}
+#capa3 img{
+    width: 80%;
+    height: 80%;
+    padding: 3%;
+    margin-left: 7%;
+    
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    -khtml-background-size: 100%;
+    -moz-background-size: 100% 100%;
+}
+#descafro{
+    width: 100%;
+    height: 100%;
+    
+    font-family: Century Gothic;
+    font-size: 100%;
+    color: white;
+    text-align: center;
+}
+#botao3{
+    width: 100%;
+    height: 100%;
+    padding: 5%;
+}
+#botao3 button{
+    font-family: Century Gothic;
+    font-size: 70%;
+    color: white;
+    background: transparent;
+    cursor: pointer;
+    text-align: center;
+    padding: 3%;
+    border-radius: 6px;
+}
+#botao3 button:hover{
+    color: black;
+    background: white;
+}
+
+
+#estante1{
+    width: 100%;
+    height: 1px;
+    background-color: transparent;
+    float: left;
+}
+
+
+.gram{
+    width: 25%;
+    height: 100%;
+    float: left;
+    background-color: rgba(0,0,0,0.5);
+    margin-left: 6.25%;
+    margin-top: 2%;
+}
+#nome4 h1{
+    font-family: Century Gothic;
+    font-size: 70%;
+    color: white;
+    text-align: center;
+    padding: 4%;
+}
+#capa4{
+    width: 100%;
+    height: 100%;
+}
+#capa4 img{
+    width: 80%;
+    height: 80%;
+    padding: 3%;
+    margin-left: 7%;
+    
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    -khtml-background-size: 100%;
+    -moz-background-size: 100% 100%;
+}
+#descgram{
+    width: 100%;
+    height: 100%;
+    
+    font-family: Century Gothic;
+    font-size: 100%;
+    color: white;
+    text-align: center;
+}
+#botao4{
+    width: 100%;
+    height: 100%;
+    padding: 5%;
+}
+#botao4 button{
+    font-family: Century Gothic;
+    font-size: 70%;
+    color: white;
+    background: transparent;
+    cursor: pointer;
+    text-align: center;
+    padding: 3%;
+    border-radius: 6px;
+}
+#botao4 button:hover{
+    color: black;
+    background: white;
+}
+
+
+.prod{
+    width: 25%;
+    height: 100%;
+    float: left;
+    background-color: rgba(0,0,0,0.5);
+    margin-left: 6.25%;
+    margin-top: 2%;
+}
+#nome5 h1{
+    font-family: Century Gothic;
+    font-size: 70%;
+    color: white;
+    text-align: center;
+    padding: 4%;
+}
+#capa5{
+    width: 100%;
+    height: 100%;
+}
+#capa5 img{
+    width: 80%;
+    height: 80%;
+    padding: 3%;
+    margin-left: 7%;
+    
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    -khtml-background-size: 100%;
+    -moz-background-size: 100% 100%;
+}
+#descprod{
+    width: 100%;
+    height: 100%;
+    
+    font-family: Century Gothic;
+    font-size: 100%;
+    color: white;
+    text-align: center;
+}
+#botao5{
+    width: 100%;
+    height: 100%;
+    padding: 5%;
+}
+#botao5 button{
+    font-family: Century Gothic;
+    font-size: 70%;
+    color: white;
+    background: transparent;
+    cursor: pointer;
+    text-align: center;
+    padding: 3%;
+    border-radius: 6px;
+}
+#botao5 button:hover{
+    color: black;
+    background: white;
+}
+
+
+.enem{
+    width: 25%;
+    height: 100%;
+    float: left;
+    background-color: rgba(0,0,0,0.5);
+    margin-left: 6.25%;
+    margin-top: 2%;
+}
+#nome6 h1{
+    font-family: Century Gothic;
+    font-size: 70%;
+    color: white;
+    text-align: center;
+    padding: 4%;
+}
+#capa6{
+    width: 100%;
+    height: 100%;
+}
+#capa6 img{
+    width: 80%;
+    height: 80%;
+    padding: 3%;
+    margin-left: 7%;
+    
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    -khtml-background-size: 100%;
+    -moz-background-size: 100% 100%;
+}
+#descenem{
+    width: 100%;
+    height: 100%;
+    
+    font-family: Century Gothic;
+    font-size: 100%;
+    color: white;
+    text-align: center;
+}
+#botao6{
+    width: 100%;
+    height: 100%;
+    padding: 5%;
+}
+#botao6 button{
+    font-family: Century Gothic;
+    font-size: 70%;
+    color: white;
+    background: transparent;
+    cursor: pointer;
+    text-align: center;
+    padding: 3%;
+    border-radius: 6px;
+}
+#botao6 button:hover{
+    color: black;
+    background: white;
+}
+
+
+.linha{
+    width: 100%;
+    height: 15px;
+    background-color: red;
+    float: left;
+}
+
+
+#line2{
+    width: 100%;
+    height: 3px;
+    background-color: white;
+    float: left;
+}
+
+
+.rodapee{
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    float: left;
+}
+
+.rodapee{
+    width: 100%;
+    height: 100%;
+}
+.rodapee img{
+    width: 25%;
+    height: 25%;
+    margin-left: 37.5%;
+}
+
+.end{
+    width: 100%;
+    height: 100%;
+    
+    text-align: center;
+    font-family: Century Gothic;
+    font-size: 100%;
+    color: white;
+}
+
+.tel{
+    width: 100%;
+    height: 100%;
+    
+    text-align: center;
+    font-family: Century Gothic;
+    font-size: 100%;
+    color: white;
+}
+
+.email{
+    width: 100%;
+    height: 100%;
+    
+    text-align: center;
+    font-family: Century Gothic;
+    font-size: 100%;
+    color: white;
+}
+
+.sep1{
+    width: 100%;
+    height: 30px;
+    background-color: red;
+}
+.sep2{
+    width: 100%;
+    height: 30px;
+    background-color: red;
+}
+.sep3{
+    width: 100%;
+    height: 30px;
+    background-color: red;
+}
+.sep4{
+    width: 100%;
+    height: 40px;
+    background-color: red;
+}
